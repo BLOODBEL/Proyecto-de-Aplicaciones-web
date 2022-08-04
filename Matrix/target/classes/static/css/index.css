@@ -1,0 +1,69 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 jun. 2022, 00:56:47
+    Author     : Alejandro Andrés NM
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Nuosu+SIL&display=swap');
+
+*{
+    imargin: 0;
+    padding: 0;
+    font-family: 'Nuosu SIL', serif;
+}
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.titulo1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.titulo2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.parrafo1{
+    text-align: center;
+    fsize: 20px;
+    color: blueviolet;
+    ont-size: 20px;
+    color: white;
+}
+
+.parrafo2{
+    text-align: center;
+    fsize: 20px;
+    color: blueviolet;
+    ont-size: 20px;
+    color: white;
+}
+
+.logo{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    height: 100px;
+    width: 100px;
+}
