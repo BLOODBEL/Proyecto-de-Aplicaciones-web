@@ -1,0 +1,257 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 jun. 2022, 19:53:44
+    Author     : Alejandro AndrÃ©s NM
+*/
+
+/* 
+    En CSS se llaman reglas, al conjunto de atributos a utilizar
+    Unidades de medida: vh (1/100), px= pixeles, cm, %- relativo al tamaÃ±o del elemento padre
+    padding: crea un espacio entre componentes
+    box sizing: ancho- ancho+border+padding
+    display: como se muestra, o el compartimiento, un bloque de nivel
+*/
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+/* 
+    El marcador de universal "*", sirve para modificar todos los elementos que estan dentro del contenido
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nuosu SIL', serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+div {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/PC-mainboard-electronic-components_3840x2160.jpg);
+    
+}
+
+/* 
+    Esto margin: auto; centra los objetos\
+    El display lo que hace es especificar el comportamiento que van a tener los elementos 
+    dentro de nuestro contenedor, en este caso navbar
+    El flex del display lo que hace es acomodar todos elementos dentro de un mismo bloque
+    
+*/
+.navbar{
+    height: 25vh;
+    widows: 100%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+}
+
+.logo{
+    widows: 100px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+
+/* 
+    El "ul y li" se usa para que se le apliquen las reglas siempre y cuando siga el orden de los atributos
+    el inline-block en vez de que se vean verticalmente, se vean horizontalmente "Home,Youtube,Index"
+    El list-style: none estamos quitamos las vi;etas
+*/
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 1px 20px;
+}
+
+/* 
+    Aca estamos personalizando el color de los hipervinculos
+    con el text-decoration:none quitamos el subrayado de los links
+*/
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* 
+    Aca estamos personalizando el color del titulo
+*/
+.content h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 24;
+    margin-bottom: 15px;
+    color: white;
+   
+}
+
+/* 
+    Aca estamos personalizando el color del parrafo
+*/
+.content p{
+    font-size: 20px;
+    color: white;
+}
+
+
+.busqueda{
+     height: 70%;
+    position: absolute;
+    bottom:-40px;
+    right: 230px;
+    
+    
+}
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 jun. 2022, 19:53:44
+    Author     : Alejandro AndrÃ©s NM
+*/
+
+/* 
+    En CSS se llaman reglas, al conjunto de atributos a utilizar
+    Unidades de medida: vh (1/100), px= pixeles, cm, %- relativo al tamaÃ±o del elemento padre
+    padding: crea un espacio entre componentes
+    box sizing: ancho- ancho+border+padding
+    display: como se muestra, o el compartimiento, un bloque de nivel
+*/
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+/* 
+    El marcador de universal "*", sirve para modificar todos los elementos que estan dentro del contenido
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nuosu SIL', serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Nuosu SIL', serif;
+}
+
+div {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/PC-mainboard-electronic-components_3840x2160.jpg);
+    
+}
+
+/* 
+    Esto margin: auto; centra los objetos\
+    El display lo que hace es especificar el comportamiento que van a tener los elementos 
+    dentro de nuestro contenedor, en este caso navbar
+    El flex del display lo que hace es acomodar todos elementos dentro de un mismo bloque
+    
+*/
+.navbar{
+    height: 25vh;
+    widows: 100%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+}
+
+.logo{
+    widows: 100px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+
+/* 
+    El "ul y li" se usa para que se le apliquen las reglas siempre y cuando siga el orden de los atributos
+    el inline-block en vez de que se vean verticalmente, se vean horizontalmente "Home,Youtube,Index"
+    El list-style: none estamos quitamos las vi;etas
+*/
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 1px 20px;
+}
+
+/* 
+    Aca estamos personalizando el color de los hipervinculos
+    con el text-decoration:none quitamos el subrayado de los links
+*/
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* 
+    Aca estamos personalizando el color del titulo
+*/
+.content h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 24;
+    margin-bottom: 15px;
+    color: white;
+   font-family: 'Nuosu SIL', serif;
+}
+
+/* 
+    Aca estamos personalizando el color del parrafo
+*/
+.content p{
+    font-size: 20px;
+    color: white;
+}
+
+
+.busqueda{
+     height: 70%;
+    position: absolute;
+    bottom:-40px;
+    right: 230px;
+    
+    
+}
+.COMPONENTE{
+     height: 60%;
+    position: absolute;
+    bottom:-100px;
+    right: 60px;
+    
+    
+}
+.PC{
+     height: 60%;
+    position: absolute;
+    bottom:-100px;
+    right: 700px;
+    
+    
+}
